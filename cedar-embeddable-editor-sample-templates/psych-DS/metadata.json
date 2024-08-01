@@ -1,0 +1,83 @@
+{
+    "@context": {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "pav": "http://purl.org/pav/",
+      "schema": "https://schema.org/",
+      "oslc": "http://open-services.net/ns/core#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "rdfs:label": {
+        "@type": "xsd:string"
+      },
+      "schema:isBasedOn": {
+        "@type": "@id"
+      },
+      "schema:name": {
+        "@type": "xsd:string"
+      },
+      "schema:description": {
+        "@type": "xsd:string"
+      },
+      "pav:derivedFrom": {
+        "@type": "@id"
+      },
+      "pav:createdOn": {
+        "@type": "xsd:dateTime"
+      },
+      "pav:createdBy": {
+        "@type": "@id"
+      },
+      "pav:lastUpdatedOn": {
+        "@type": "xsd:dateTime"
+      },
+      "oslc:modifiedBy": {
+        "@type": "@id"
+      },
+      "skos:notation": {
+        "@type": "xsd:string"
+      },
+      "name": "https://schema.org/name",
+      "description": "https://schema.org/description",
+      "variableMeasured": "https://schema.org/variableMeasured",
+      "author": "https://schema.org/author",
+      "citation": "https://schema.org/citation",
+      "license": "https://schema.org/license",
+      "funder": "https://schema.metadatacenter.org/properties/c35f0660-2072-46a3-8e0d-532e40d94919",
+      "url": "https://schema.org/url",
+      "keywords": "https://schema.org/keywords",
+      "identifier": "https://schema.org/identifier"
+    },
+    "@type": "https://schema.org/Dataset",
+    "name": {
+      "@value": "fdsa"
+    },
+    "description": {
+      "@value": "dsa"
+    },
+    "variableMeasured": [
+      {
+        "@value": null
+      }
+    ],
+    "author": [
+      {
+        "@value": null
+      }
+    ],
+    "citation": {
+      "@value": null
+    },
+    "license": {
+      "@value": null
+    },
+    "funder": [
+      {
+        "@value": null
+      }
+    ],
+    "url": {},
+    "keywords": {
+      "@value": null
+    },
+    "identifier": {}
+  }
